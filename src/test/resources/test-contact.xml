@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="test contact" parallel="tests" thread-count="2">
+<suite name="test contact" parallel="tests" thread-count="3">
     <test name="contact - chrome">
         <parameter name="br" value="chrome"/>
         <classes>
@@ -13,10 +13,10 @@
             <class name="st.contact.Contact"/>
         </classes>
     </test>
-    <test name="contact - ie">
-        <parameter name="br" value="ie"/>
-        <classes>
-            <class name="st.contact.Contact"/>
-        </classes>
-    </test>
+    <!--<test name="contact - ie">-->
+        <!--<parameter name="br" value="ie"/>-->
+        <!--<classes>-->
+            <!--<class name="st.contact.Contact"/>-->
+        <!--</classes>-->
+    <!--</test>-->
 </suite>
