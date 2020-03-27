@@ -13,7 +13,7 @@ import page.st.StMainMenu;
 import st.TestBase;
 
 
-public class Contact extends TestBase {
+public class ContactTest extends TestBase {
 
     @BeforeClass
     public void goToContactTab() {

@@ -5,14 +5,14 @@
     <test name="contact - chrome">
         <parameter name="br" value="chrome"/>
         <classes>
-            <class name="st.contact.Contact"/>
+            <class name="st.contact.ContactTest"/>
         </classes>
     </test>
 
     <test name="contact - firefox">
         <parameter name="br" value="firefox"/>
         <classes>
-            <class name="st.contact.Contact"/>
+            <class name="st.contact.ContactTest"/>
         </classes>
     </test>
 
