@@ -1,0 +1,1 @@
+java -jar c:\webdrivers\selenium-server-standalone-3.141.59.jar -role hub -hubConfig c:\webdrivers\hubconfig.json
