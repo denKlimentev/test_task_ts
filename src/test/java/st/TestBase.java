@@ -39,7 +39,6 @@ public class TestBase {
 
     @AfterTest
     public void destroy() {
-        System.out.println("aaaa  " + Thread.currentThread().getName() + " === ");
         closeWebDriver();
     }
 }
