@@ -17,7 +17,7 @@
         <webdriverManager.version>3.2.0</webdriverManager.version>
         <!--<sel4j.version>1.7.25</sel4j.version>-->
         <!--<glassfish.version>2.26-b03</glassfish.version>-->
-        <!--<allure.version>2.10.0</allure.version>-->
+        <allure.version>2.10.0</allure.version>
         <!--<ashot.version>1.5.4</ashot.version>-->
         <!--<extentReport.version>2.41.2</extentReport.version>-->
         <jsonSimple.version>1.1.1</jsonSimple.version>
@@ -26,6 +26,11 @@
 
 
     <dependencies>
+        <dependency>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-testng</artifactId>
+        <version>${allure.version}</version>
+        </dependency>
         <dependency>
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
