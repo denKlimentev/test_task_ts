@@ -1,7 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="test contact" parallel="tests" thread-count="2">
-
     <test name="contact - chrome">
         <parameter name="br" value="chrome"/>
         <classes>
@@ -15,5 +14,4 @@
             <class name="st.contact.ContactTest"/>
         </classes>
     </test>
-
 </suite>
