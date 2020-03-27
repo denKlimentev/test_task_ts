@@ -30,7 +30,7 @@ public class TestBase {
             } else {
                 Configuration.browser = "firefox";
             }
-            Configuration.remote = "http://localhost:4444/wd/hub";
+//            Configuration.remote = "http://localhost:4444/wd/hub";
             open(HTTPS_WWW_ST_BY);
         }finally {
             semaphore.release();
