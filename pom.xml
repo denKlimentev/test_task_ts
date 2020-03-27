@@ -148,7 +148,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <includes>
-                        <include>*Test.java</include>
+                        <include>test-contact.xml</include>
                     </includes>
                 </configuration>
             </plugin>
