@@ -15,7 +15,7 @@
         <selnium.version>3.14.0</selnium.version>
         <webdriverManager.version>3.2.0</webdriverManager.version>
         <jsonSimple.version>1.1.1</jsonSimple.version>
-        <testNg.version>6.14.3</testNg.version>
+        <testNg.version>7.7.0</testNg.version>
 
         <allure.version>1.4.17</allure.version>
     </properties>
